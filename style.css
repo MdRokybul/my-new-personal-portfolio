@@ -1,0 +1,44 @@
+body{
+    margin: 0 10%;
+}
+
+.menu-bar{
+    float: right;
+    /* margin-right: 10%; */
+    margin-top: 10px;
+}
+.menu{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.title{
+    font-family: 'Oswald', sans-serif;
+}
+
+.regular-font{
+    font-family: 'Poppins', sans-serif;
+}
+.head-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.common-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border-radius: 7px;
+}
+
+.half-width{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.half-width img{
+    width: 80%;
+}
