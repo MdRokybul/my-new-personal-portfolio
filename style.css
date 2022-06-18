@@ -2,8 +2,13 @@ body{
     margin: 0 10%;
 }
 
-section{
+/* section{
     height: 710px;
+    margin-bottom: 100px;
+} */
+
+.section1{
+    height: 550px;
     margin-bottom: 100px;
 }
 
@@ -48,9 +53,17 @@ section{
     width: 80%;
 }
 
+.project-area{
+    margin-top: 250px;
+}
+
+.card-area{
+    display: flex;
+    width: 100%;
+}
+
 .card{
     width: 28%;
-    float: left;
     box-shadow: 6px 4px 20px grey;
     margin-left: 27px;
     padding: 10px 20px;
@@ -72,23 +85,49 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    height: 320px;
+    margin: 180px 0px 150px 0px;
 }
 
-.footer h2{
-    display: flex;
-    position: relative;
-    top: 43%;
-    left: 10%;
-    font-family: 'Oswald';
-    font-size: 65px;
-    color: white;
+#inquiry{
+        position: relative;
+        top: 36%;
+        font-family: 'Oswald';
+        font-size: 65px;
+        color: white;
+        margin-left: 10%;
 }
 
 .chat{
     position: relative;
-    top: 28%;
-    right: 13%;
-    display: block;
-    text-align: right;
+    left: 75%;
     text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    background: tomato;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.contact-area{
+    text-align: center;
+    line-height: 0em;
+    margin-bottom: 120px;
+}
+
+.contact-area h2{
+    font-family: 'Oswald';
+    color: gray;
+    font-size: 31px;
+}
+
+.contact-area p{
+    font-family: 'Poppins';
+    font-size: 60px;
+    color: #6e3a6e;
+}
+
+.icon{
+    width: 6%;
+    padding: 10px 20px;
 }
