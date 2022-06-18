@@ -2,6 +2,11 @@ body{
     margin: 0 10%;
 }
 
+section{
+    height: 710px;
+    margin-bottom: 100px;
+}
+
 .menu-bar{
     float: right;
     /* margin-right: 10%; */
@@ -37,9 +42,53 @@ body{
 .half-width{
     width: 50%;
     float: left;
-    height: 500px;
 }
 
 .half-width img{
     width: 80%;
+}
+
+.card{
+    width: 28%;
+    float: left;
+    box-shadow: 6px 4px 20px grey;
+    margin-left: 27px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.card img{
+    width: 100%;
+}
+.card h3{
+    color: rgb(77 38 116);
+}
+.card p{
+    font-size: 15px;
+    color: gray;
+}
+
+.footer{
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.footer h2{
+    display: flex;
+    position: relative;
+    top: 43%;
+    left: 10%;
+    font-family: 'Oswald';
+    font-size: 65px;
+    color: white;
+}
+
+.chat{
+    position: relative;
+    top: 28%;
+    right: 13%;
+    display: block;
+    text-align: right;
+    text-decoration: none;
 }
